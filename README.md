@@ -3,7 +3,7 @@ A simple yet feature-rich todo application built with vanilla HTML, CSS, and Jav
 
 ## Screenshot
 ![Project Screenshot](images/login.png)
-![Project Screenshot](images/todo.png)
+![Project Screenshot](images/screenhot.png)
 
 ## Features
 - User Authentication (mock implementation)

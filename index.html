@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <h1 class="title">Todo App <span>Login</span></h1>
+            <div class="auth-section">
+                <input type="text" id="username" class="input" placeholder="Username">
+                <input type="password" id="password" class="input" placeholder="Password">
+                <button id="loginBtn" class="button-confirm">Login</button>
+                <button id="logoutBtn" class="button-confirm" style="display: none;">Logout</button>
+            </div>
+        </div>
+
+        <main id="todoApp" style="display: none;">
+            <div class="todo-input">
+                <input type="text" id="taskInput" class="input" placeholder="Add a new task...">
+                <div class="priority-selector">
+                    <label class="priority-option priority-high">
+                        <input type="radio" name="priority" value="high" checked>
+                        <div class="priority-indicator"></div>
+                        <span>High Priority</span>
+                    </label>
+                    <label class="priority-option priority-medium">
+                        <input type="radio" name="priority" value="medium">
+                        <div class="priority-indicator"></div>
+                        <span>Medium Priority</span>
+                    </label>
+                    <label class="priority-option priority-low">
+                        <input type="radio" name="priority" value="low">
+                        <div class="priority-indicator"></div>
+                        <span>Low Priority</span>
+                    </label>
+                </div>
+                <button id="addTaskBtn" class="button-confirm">Add Task</button>
+            </div>
+
+            <div class="weather-info">
+                <h2>Weather Information</h2>
+                <div id="weatherDisplay"></div>
+            </div>
+
+            <div class="todo-list">
+                <h2>Your Tasks</h2>
+                <div id="taskList"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html> 

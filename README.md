@@ -1,6 +1,10 @@
 # To-do Application
 A simple yet feature-rich todo application built with vanilla HTML, CSS, and JavaScript. This application demonstrates core web development concepts and includes features like task management, user authentication, and weather information integration.
 
+## Screenshot
+![Project Screenshot](images/login.png)
+![Project Screenshot](images/todo.png)
+
 ## Features
 - User Authentication (mock implementation)
 - Add, delete, and mark tasks as complete

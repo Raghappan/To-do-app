@@ -1,50 +1,81 @@
-# To-do Application
-A simple yet feature-rich todo application built with vanilla HTML, CSS, and JavaScript. This application demonstrates core web development concepts and includes features like task management, user authentication, and weather information integration.
+# Modern To-Do Application
 
-## Screenshot
-![Project Screenshot](images/login.png)
-![Project Screenshot](images/screenhot.png)
+A feature-rich to-do application built with HTML, CSS, and JavaScript, featuring user authentication, weather integration, and priority-based task management.
 
 ## Features
-- User Authentication (mock implementation)
-- Add, delete, and mark tasks as complete
-- Task prioritization (High, Medium, Low)
-- Local storage for task persistence
-- Weather information display
-- Responsive design for all devices
-- Clean and modern UI
 
-## Setup Instructions
-1. Clone this repository or download the files
-2. Open `index.html` in your web browser
-3. For weather functionality, you'll need to:
-   - Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api)
-   - Add your API Key  in `js/app.js`.
+- User Authentication
+- Priority-based Task Management
+- Weather Integration
+- Modern UI Design
+- Local Storage Persistence
+- Task Priority Visualization
 
-## Usage
-1. Enter any username and password to log in
-2. Add tasks using the input field and priority selector
-3. Mark tasks as complete by clicking the checkbox
-4. Delete tasks using the delete button
-5. View weather information for the current location
-6. Log out using the logout button
+## Screenshots
 
-## Technical Details
-- Built with HTML, CSS, and JavaScript
-- Uses Local Storage for data persistence
-- Implements responsive design using CSS Flexbox and Grid
-- Integrates with OpenWeatherMap API for weather data
-- Follows mobile-first design principles
+### Login Screen
+![Login Screen](images/login.png)
 
-## Browser Support
-- Chrome
-- Firefox
-- Safari
-- Edge
+### Main Application
+![Main Application](images/screenshot.png)
+
+
+## Priority Colors
+
+Tasks are color-coded based on their priority:
+- 🔴 High Priority - Red border
+- 🔵 Medium Priority - Blue border
+- 🟢 Low Priority - Green border
+
+## Project Structure
+
+```
+todo-app/
+├── public/          # Static files
+│   ├── css/        # Stylesheets
+│   ├── js/         # JavaScript files
+│   └── index.html  # Main HTML file
+├── images/         # Screenshots and images
+└── README.md       # Documentation
+```
+
+## Features in Detail
+
+### User Authentication
+- Simple username/password authentication
+- Persistent login state
+- Secure logout functionality
+
+### Task Management
+- Add new tasks with priority levels
+- Mark tasks as complete
+- Delete tasks
+- Priority-based visualization
+- Hover effects for better interaction
+
+### Weather Integration
+- Real-time weather information
+- Temperature display
+- Weather condition description
+- Humidity information
+
+## Local Storage
+
+The application uses browser's local storage to persist:
+- User authentication state
+- Task list and their properties
+- Task completion status
 
 ## Contributing
+
 Feel free to fork this repository and submit pull requests for any improvements.
 
-## Live Demo
-Click the link to view the demo: https://to-b1vjf2d5s-shrinands-projects.vercel.app
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Weather data provided by OpenWeatherMap API
+- Icons and design inspiration from Material Design
 

@@ -11,6 +11,9 @@ A feature-rich to-do application built with HTML, CSS, and JavaScript, featuring
 - Local Storage Persistence
 - Task Priority Visualization
 
+## Live Demo
+[Click here to view](https://to-b1vjf2d5s-shrinands-projects.vercel.app)
+
 ## Screenshots
 
 ### Login Screen
@@ -69,10 +72,6 @@ The application uses browser's local storage to persist:
 ## Contributing
 
 Feel free to fork this repository and submit pull requests for any improvements.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 

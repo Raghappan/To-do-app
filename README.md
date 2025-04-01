@@ -1,4 +1,4 @@
-# Advanced Todo Application
+# Advanced To-do Application
 
 A simple yet feature-rich todo application built with vanilla HTML, CSS, and JavaScript. This application demonstrates core web development concepts and includes features like task management, user authentication, and weather information integration.
 
@@ -18,7 +18,7 @@ A simple yet feature-rich todo application built with vanilla HTML, CSS, and Jav
 2. Open `index.html` in your web browser
 3. For weather functionality, you'll need to:
    - Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api)
-   - Replace `'YOUR_API_KEY'` in `js/app.js` with your actual API key
+   - Add your API Key  in `js/app.js`.
 
 ## Usage
 
@@ -31,7 +31,7 @@ A simple yet feature-rich todo application built with vanilla HTML, CSS, and Jav
 
 ## Technical Details
 
-- Built with vanilla HTML, CSS, and JavaScript
+- Built with HTML, CSS, and JavaScript
 - Uses Local Storage for data persistence
 - Implements responsive design using CSS Flexbox and Grid
 - Integrates with OpenWeatherMap API for weather data
@@ -39,7 +39,7 @@ A simple yet feature-rich todo application built with vanilla HTML, CSS, and Jav
 
 ## Browser Support
 
-- Chrome (recommended)
+- Chrome
 - Firefox
 - Safari
 - Edge
